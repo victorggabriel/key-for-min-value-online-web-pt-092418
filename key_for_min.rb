@@ -4,7 +4,11 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   small = 0
+  choosen_key = nil 
+  
   name_hash.each do |key, value|
-      
+    if small > value || small == 0
+        
+    end
   end
 end
